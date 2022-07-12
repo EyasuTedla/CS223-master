@@ -1,0 +1,8 @@
+C:\Users\Abel\Documents\GitHub\CS223-master\Csharp OOP\Area and perimeter\Area and perimeter\bin\Debug\Area and perimeter.exe.config
+C:\Users\Abel\Documents\GitHub\CS223-master\Csharp OOP\Area and perimeter\Area and perimeter\bin\Debug\Area and perimeter.exe
+C:\Users\Abel\Documents\GitHub\CS223-master\Csharp OOP\Area and perimeter\Area and perimeter\bin\Debug\Area and perimeter.pdb
+C:\Users\Abel\Documents\GitHub\CS223-master\Csharp OOP\Area and perimeter\Area and perimeter\obj\Debug\Area and perimeter.csproj.AssemblyReference.cache
+C:\Users\Abel\Documents\GitHub\CS223-master\Csharp OOP\Area and perimeter\Area and perimeter\obj\Debug\Area and perimeter.csproj.SuggestedBindingRedirects.cache
+C:\Users\Abel\Documents\GitHub\CS223-master\Csharp OOP\Area and perimeter\Area and perimeter\obj\Debug\Area and perimeter.csproj.CoreCompileInputs.cache
+C:\Users\Abel\Documents\GitHub\CS223-master\Csharp OOP\Area and perimeter\Area and perimeter\obj\Debug\Area and perimeter.exe
+C:\Users\Abel\Documents\GitHub\CS223-master\Csharp OOP\Area and perimeter\Area and perimeter\obj\Debug\Area and perimeter.pdb
