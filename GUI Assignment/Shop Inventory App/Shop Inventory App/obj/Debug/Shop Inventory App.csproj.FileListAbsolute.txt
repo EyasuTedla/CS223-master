@@ -1,0 +1,10 @@
+C:\Users\Abel\Documents\GitHub\CS223-master\GUI Assignment\Shop Inventory App\Shop Inventory App\obj\Debug\Shop Inventory App.csproj.AssemblyReference.cache
+C:\Users\Abel\Documents\GitHub\CS223-master\GUI Assignment\Shop Inventory App\Shop Inventory App\obj\Debug\Shop Inventory App.csproj.SuggestedBindingRedirects.cache
+C:\Users\Abel\Documents\GitHub\CS223-master\GUI Assignment\Shop Inventory App\Shop Inventory App\obj\Debug\Shop_Inventory_App.Properties.Resources.resources
+C:\Users\Abel\Documents\GitHub\CS223-master\GUI Assignment\Shop Inventory App\Shop Inventory App\obj\Debug\Shop Inventory App.csproj.GenerateResource.cache
+C:\Users\Abel\Documents\GitHub\CS223-master\GUI Assignment\Shop Inventory App\Shop Inventory App\obj\Debug\Shop Inventory App.csproj.CoreCompileInputs.cache
+C:\Users\Abel\Documents\GitHub\CS223-master\GUI Assignment\Shop Inventory App\Shop Inventory App\bin\Debug\Shop Inventory App.exe.config
+C:\Users\Abel\Documents\GitHub\CS223-master\GUI Assignment\Shop Inventory App\Shop Inventory App\bin\Debug\Shop Inventory App.exe
+C:\Users\Abel\Documents\GitHub\CS223-master\GUI Assignment\Shop Inventory App\Shop Inventory App\bin\Debug\Shop Inventory App.pdb
+C:\Users\Abel\Documents\GitHub\CS223-master\GUI Assignment\Shop Inventory App\Shop Inventory App\obj\Debug\Shop Inventory App.exe
+C:\Users\Abel\Documents\GitHub\CS223-master\GUI Assignment\Shop Inventory App\Shop Inventory App\obj\Debug\Shop Inventory App.pdb
