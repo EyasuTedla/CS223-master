@@ -8,3 +8,5 @@ C:\Users\Abel\Documents\GitHub\CS223-master\GUI Assignment\Shop Inventory App\Sh
 C:\Users\Abel\Documents\GitHub\CS223-master\GUI Assignment\Shop Inventory App\Shop Inventory App\bin\Debug\Shop Inventory App.pdb
 C:\Users\Abel\Documents\GitHub\CS223-master\GUI Assignment\Shop Inventory App\Shop Inventory App\obj\Debug\Shop Inventory App.exe
 C:\Users\Abel\Documents\GitHub\CS223-master\GUI Assignment\Shop Inventory App\Shop Inventory App\obj\Debug\Shop Inventory App.pdb
+C:\Users\Abel\Documents\GitHub\CS223-master\GUI Assignment\Shop Inventory App\Shop Inventory App\obj\Debug\EazyShop.Form1.resources
+C:\Users\Abel\Documents\GitHub\CS223-master\GUI Assignment\Shop Inventory App\Shop Inventory App\obj\Debug\Shop_Inventory_App.Login.resources

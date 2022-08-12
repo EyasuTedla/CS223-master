@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Shop_Inventory_App;
 
-namespace EazyShop
+namespace InventoryHandler
 {
     internal static class Program
     {
