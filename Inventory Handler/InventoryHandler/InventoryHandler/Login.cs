@@ -25,7 +25,7 @@ namespace InventoryHandler
             {
                 if(txt_password.Text == "admin")
                 {
-                    MainForm = new Inventory(txt_username.Text);
+                    MainForm = new Menu(txt_username.Text);
                     MainForm.Show();
                     Hide();
                 }

@@ -95,7 +95,7 @@ namespace InventoryHandler
                 clbox_deliveryDate.SetItemChecked(clbox_deliveryDate.CheckedIndices[0], false);
             }
             cbox_checked.Checked = false;
-            cbox_checked.Checked = false;
+            cbox_approved.Checked = false;
             rad_batch.Checked = false;
             rad_single.Checked = false;
             dgv_output.DataSource = null;
@@ -114,6 +114,12 @@ namespace InventoryHandler
         private void rad_batch_CheckedChanged(object sender, EventArgs e)
         {
             packageSelection = "Batch Package";
+        }
+
+        private void Inventory_Load(object sender, EventArgs e)
+        {
+            rad_batch.Checked = false;
+            rad_single.Checked = false;
         }
     }
 }

@@ -17,7 +17,7 @@ namespace InventoryHandler
         public string packageSelection { get; set; }
         public string deliveryDate { get; set; }
 
-        public List<InvData> itemList = new List<InvData>();
+        public static List<InvData> itemList = new List<InvData>();
 
         public void Save()
         {
@@ -27,6 +27,11 @@ namespace InventoryHandler
         public List<InvData> Print()
         {
             return itemList;
+        }
+
+        public static InvData searchForProduct(string name)
+        {
+            return itemList.Find(prod => prod.itemName == name);
         }
     }
 }

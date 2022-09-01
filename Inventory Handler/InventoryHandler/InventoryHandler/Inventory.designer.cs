@@ -301,8 +301,11 @@
             this.Controls.Add(this.lbl_date);
             this.Controls.Add(this.lbl_number);
             this.Controls.Add(this.lbl_user);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Inventory";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Inventory";
+            this.Load += new System.EventHandler(this.Inventory_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_output)).EndInit();
