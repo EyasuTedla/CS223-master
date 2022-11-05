@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -14,6 +15,8 @@ namespace InventoryHandler
     {
         InvData invdata;
         string packageSelection;
+        private string connectionString = "Data Source = LAPTOP-1IP6QHVG\\NEWSERVER; Initial Catalog = InventoryDB; Integrated Security = true";
+
         public Inventory(string username)
         {
             InitializeComponent();
@@ -52,6 +55,17 @@ namespace InventoryHandler
                     invdata.Save();
                     dgv_output.DataSource = null;
                     dgv_output.DataSource = invdata.Print();
+                    string insert = "insert into Products_Table values(@name, @inventoryNumber, @date, @price";
+                    SqlConnection connection = new SqlConnection(connectionString);
+                    connection.Open();
+                    SqlCommand command = new SqlCommand(insert, connection);
+                    command.Parameters.AddWithValue("name", invdata.itemName);
+                    command.Parameters.AddWithValue("inventoryNumber", invdata.invNumber);
+                    command.Parameters.AddWithValue("date", invdata.regDate);
+                    command.Parameters.AddWithValue("price", invdata.itemPrice);
+                    var rows = command.ExecuteNonQuery();
+                    MessageBox.Show("Data Saved Successfully!");
+                    connection.Close();
                 }
                 else
                 {

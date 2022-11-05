@@ -40,12 +40,13 @@
             // 
             // menuStrip1
             // 
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.productManagementToolStripMenuItem,
             this.helpToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(800, 28);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -56,28 +57,28 @@
             this.searchProductToolStripMenuItem,
             this.displayProductListToolStripMenuItem});
             this.productManagementToolStripMenuItem.Name = "productManagementToolStripMenuItem";
-            this.productManagementToolStripMenuItem.Size = new System.Drawing.Size(135, 20);
+            this.productManagementToolStripMenuItem.Size = new System.Drawing.Size(166, 24);
             this.productManagementToolStripMenuItem.Text = "Product Management";
             this.productManagementToolStripMenuItem.Click += new System.EventHandler(this.productManagementToolStripMenuItem_Click);
             // 
             // addProductToolStripMenuItem
             // 
             this.addProductToolStripMenuItem.Name = "addProductToolStripMenuItem";
-            this.addProductToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.addProductToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.addProductToolStripMenuItem.Text = "Add Product";
             this.addProductToolStripMenuItem.Click += new System.EventHandler(this.addProductToolStripMenuItem_Click);
             // 
             // searchProductToolStripMenuItem
             // 
             this.searchProductToolStripMenuItem.Name = "searchProductToolStripMenuItem";
-            this.searchProductToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.searchProductToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.searchProductToolStripMenuItem.Text = "Search Product";
             this.searchProductToolStripMenuItem.Click += new System.EventHandler(this.searchProductToolStripMenuItem_Click);
             // 
             // displayProductListToolStripMenuItem
             // 
             this.displayProductListToolStripMenuItem.Name = "displayProductListToolStripMenuItem";
-            this.displayProductListToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.displayProductListToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.displayProductListToolStripMenuItem.Text = "Display Product List";
             this.displayProductListToolStripMenuItem.Click += new System.EventHandler(this.displayProductListToolStripMenuItem_Click);
             // 
@@ -86,13 +87,13 @@
             this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.figureItOutYourselfToolStripMenuItem});
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(55, 24);
             this.helpToolStripMenuItem.Text = "Help";
             // 
             // figureItOutYourselfToolStripMenuItem
             // 
             this.figureItOutYourselfToolStripMenuItem.Name = "figureItOutYourselfToolStripMenuItem";
-            this.figureItOutYourselfToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.figureItOutYourselfToolStripMenuItem.Size = new System.Drawing.Size(172, 26);
             this.figureItOutYourselfToolStripMenuItem.Text = "Hello World";
             // 
             // Menu
@@ -106,6 +107,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.Menu_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

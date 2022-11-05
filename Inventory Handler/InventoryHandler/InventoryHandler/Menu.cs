@@ -68,5 +68,10 @@ namespace InventoryHandler
                 form.Close();
             }
         }
+
+        private void Menu_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

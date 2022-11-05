@@ -27,3 +27,8 @@ C:\Users\Jake\Downloads\Compressed\CS223-master-main\Inventory Handler\Inventory
 C:\Users\Jake\Downloads\Compressed\CS223-master-main\Inventory Handler\InventoryHandler\InventoryHandler\obj\Debug\InventoryHandler.FlowLayoutDisplay.resources
 C:\Users\Jake\Downloads\Compressed\CS223-master-main\Inventory Handler\InventoryHandler\InventoryHandler\obj\Debug\InventoryHandler.Detail.resources
 C:\Users\Jake\Downloads\Compressed\CS223-master-main\Inventory Handler\InventoryHandler\InventoryHandler\obj\Debug\InventoryHandler.Search.resources
+C:\Users\Abel\Documents\GitHub\CS223-master\Inventory Handler\InventoryHandler\InventoryHandler\obj\Debug\InventoryHandler.Detail.resources
+C:\Users\Abel\Documents\GitHub\CS223-master\Inventory Handler\InventoryHandler\InventoryHandler\obj\Debug\InventoryHandler.FlowLayoutDisplay.resources
+C:\Users\Abel\Documents\GitHub\CS223-master\Inventory Handler\InventoryHandler\InventoryHandler\obj\Debug\InventoryHandler.Menu.resources
+C:\Users\Abel\Documents\GitHub\CS223-master\Inventory Handler\InventoryHandler\InventoryHandler\obj\Debug\InventoryHandler.ProductCard.resources
+C:\Users\Abel\Documents\GitHub\CS223-master\Inventory Handler\InventoryHandler\InventoryHandler\obj\Debug\InventoryHandler.Search.resources
